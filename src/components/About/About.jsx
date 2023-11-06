@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import ME from "../../assets/me-about.jpg";
+// import DP from "../../assets/portfolio-dp1.jpg";
 import { FaAward } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { GoFileSubmodule } from "react-icons/go";
@@ -13,7 +14,7 @@ export default function About() {
       <div className="container about__container">
         <div className="about__me">
           <div>
-            <img className="about__me-image" src={ME} alt="AboutImage" />
+            <img className="about__me-image" src={ME} alt="portfolioAboutImage" />
           </div>
         </div>
         <div className="about__content">
@@ -26,19 +27,16 @@ export default function About() {
             <article className="about__card">
               <FaUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>50+ World wide</small>
+              <small>Air Asia & Air India</small>
             </article>
             <article className="about__card">
               <GoFileSubmodule className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ completed</small>
+              <small>5+ completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
-            accusamus culpa tenetur repellendus quisquam doloremque in omnis! A
-            libero ullam laboriosam labore accusantium repellat. Recusandae
-            voluptates tempora incidunt accusamus velit.
+            I am a MERN fullstack software developer With some expreince in Adobe Experince Managment.
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>

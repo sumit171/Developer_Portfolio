@@ -36,14 +36,14 @@ export default function Contact() {
           <article className="contact__option">
             <MdAddIcCall className="contact__option-icon" />
             <h4>Let's Connect</h4>
-            <h5>9898923408</h5>
-            <a href="tel:9898923408">call me</a>
+            <h5>7367027096</h5>
+            <a href="tel:7367027096">call me</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>Ping me on WhatsApp</h5>
-            <a href="https://api.whatsapp.com/send?phone=+919898923408">Say Hi!</a>
+            <a href="https://api.whatsapp.com/send?phone=+917367027096">Say Hi!</a>
           </article>
         </div>
         <form  ref={form} onSubmit={sendEmail} >
