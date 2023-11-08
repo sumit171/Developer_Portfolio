@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import Swal from 'sweetalert2/dist/sweetalert2.js';
 import emailjs from 'emailjs-com';
 import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
@@ -20,6 +21,22 @@ export default function Contact() {
 
       e.target.reset();
   };
+
+  const send = () =>{
+    Swal.fire({
+      title: "Email sent",
+      text: "Thanks for contacting",
+      icon: "success"
+    });
+  }
+
+  const empty = () =>{
+    Swal.fire({
+      title: "Ooops..",
+      text: "Please fill the empty fields",
+      icon: "warning"
+    });
+  }
 
   return (
     <section id="contact">
@@ -50,7 +67,7 @@ export default function Contact() {
             <input type="text" name="name" placeholder="Your Full Name" required/>
             <input type="email" name="email" placeholder="Your Email" required/>
             <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
-            <button type="submit" className="btn btn-primary">Send Message</button>
+            <button type="submit" className="btn btn-primary" onClick={sendEmail ? empty : send}>Send Message</button>
         </form>
       </div>
     </section>

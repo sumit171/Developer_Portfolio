@@ -1,9 +1,9 @@
 import React from "react";
 import "./Testimonials.css";
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
+import AVTR1 from "../../assets/nigam.png";
+import AVTR2 from "../../assets/Screens.png";
+import AVTR3 from "../../assets/ScreenHRX.png";
+import AVTR4 from "../../assets/Scr-till.png";
 import {Pagination} from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -12,34 +12,34 @@ import "swiper/css/pagination";
 const data = [
   {
     image: AVTR1,
-    title: "abcd",
+    title: "Nigam Jyoti Mohapratap",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae dicta numquam voluptates, eligendi blanditiis rem quas. Est id earum eveniet adipisci dicta. Hic officiis dolores sequi sunt ullam, exercitationem distinctio.",
+      "Working with Sumit has been an absolute delight. His seamless integration of cutting-edge React components has elevated our web app projects to new heights.",
   },
   {
     image: AVTR2,
-    title: "jklmn",
+    title: "Piyush Gupta",
     review:
-      "ipsum dolor, sit amet consectetur adipisicing elit. Maxime enim, rem nesciunt reprehenderit voluptas quam placeat ex temporibus mollitia, accusamus consequatur nemo obcaecati consequuntur suscipit iure velit dolorem at tempore!",
+    "I've had the pleasure of collaborating with Sumit on multiple projects. his understanding of user interaction and aesthetics is remarkable. Our web exhibits are now a digital masterpiece, thanks to his web development skills.",
   },
   {
     image: AVTR3,
-    title: "xyz",
+    title: "Harsh Raj Jaiswal",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aliquam. Omnis repudiandae laboriosam commodi voluptate, distinctio consectetur debitis molestiae fuga.",
+      "React's focus on single-page applications has revolutionized our online platform. The smooth transitions and dynamic content loading have resulted in longer user sessions and increased customer satisfaction.",
   },
   {
     image: AVTR4,
-    title: "qwerty",
+    title: "Kaustubh Prakash",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aliquam. Omnis repudiandae laboriosam commodi voluptate, distinctio consectetur debitis molestiae fuga.",
+      "Sumit is a web app developer extraordinaire. His work has streamlined our Website, making it more user-friendly and efficient. feedback has been overwhelmingly positive.",
   },
 ];
 
 export default function Testimonials() {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
+      {/* <h5>Review from clients</h5> */}
       <h2>Testimonials</h2>
 
       <Swiper

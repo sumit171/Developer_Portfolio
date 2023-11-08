@@ -1,55 +1,52 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/fitness-club.png";
+import IMG2 from "../../assets/weather-app.png";
+import IMG3 from "../../assets/weather-app.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "GYM SPA",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/search",
+    title: "Fitness club",
+    github: "https://github.com/sumit171",
+    demo: "https://sumit-fitness-club.netlify.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Ecomm",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/search",
+    title: "Weather web app",
+    github: "https://github.com/sumit171",
+    demo: "https://weather-4-casting.netlify.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Chat App",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/search",
+    title: "Multilingual app",
+    github: "https://github.com/sumit171",
+    demo: "",
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Netflix",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/search",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Spotify",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/search",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Amazon",
-    github: "https://github.com/",
-    demo: "https://dribbble.com/search",
-  },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: "Netflix",
+  //   github: "https://github.com/",
+  //   demo: "https://dribbble.com/search",
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: "Spotify",
+  //   github: "https://github.com/",
+  //   demo: "https://dribbble.com/search",
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: "Amazon",
+  //   github: "https://github.com/",
+  //   demo: "https://dribbble.com/search",
+  // },
 ];
 
 export default function Portfolio() {
@@ -65,7 +62,7 @@ export default function Portfolio() {
               <div className="portfolio__item-image">
                 <img src={props.image} alt={props.title} />
               </div>
-              <h3>{props.title}</h3>
+              <h3 className="title-portfolio">{props.title}</h3>
               <div className="portfolio__item-cta">
                 <a
                   href={props.github}

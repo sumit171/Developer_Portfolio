@@ -4,6 +4,10 @@
   gap: 2.5rem;
 }
 
+.title-portfolio{
+  text-align: center;
+}
+
 .portfolio__item {
   background: var(--color-bg-variant);
   padding: 1.2rem;

@@ -50,7 +50,21 @@ export default function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
+                <h4>TypeScript</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
               <h4>ReactJS</h4>
+              <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+              <h4>NextJS</h4>
               <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -59,7 +73,7 @@ export default function Experience() {
         {/* Enf of Frontend */}
 
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Backend Development <br/> & Dev Tools</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
@@ -85,10 +99,17 @@ export default function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MySQL</h4>
+                <h4>JIRA</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
+            {/* <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Git</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article> */}
           </div>
         </div>
       </div>

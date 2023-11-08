@@ -1,9 +1,10 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/me-about.jpg";
-// import DP from "../../assets/portfolio-dp1.jpg";
+// import ME from "../../assets/me-about.jpg";
+import DP from "../../assets/portfolio-dp1.png";
 import { FaAward } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
+import { BsStack } from "react-icons/bs";
 import { GoFileSubmodule } from "react-icons/go";
 
 export default function About() {
@@ -14,7 +15,11 @@ export default function About() {
       <div className="container about__container">
         <div className="about__me">
           <div>
-            <img className="about__me-image" src={ME} alt="portfolioAboutImage" />
+            <img
+              className="about__me-image"
+              src={DP}
+              alt="portfolioAboutImage"
+            />
           </div>
         </div>
         <div className="about__content">
@@ -22,12 +27,12 @@ export default function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ years working</small>
+              <small>3+ years working</small>
             </article>
             <article className="about__card">
-              <FaUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>Air Asia & Air India</small>
+              <BsStack className="about__icon" />
+              <h5>MERN</h5>
+              <small>FullStack developer</small>
             </article>
             <article className="about__card">
               <GoFileSubmodule className="about__icon" />
@@ -36,9 +41,14 @@ export default function About() {
             </article>
           </div>
           <p>
-            I am a MERN fullstack software developer With some expreince in Adobe Experince Managment.
+            I am a skilled Progressive Web App developer with over 3 years of
+            experience in HTML, CSS, JavaScript, React and AEM. Adept in
+            designing and developing dynamic and responsive web applications
+            that are user-friendly and intuitive
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
