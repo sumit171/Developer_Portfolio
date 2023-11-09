@@ -3,7 +3,7 @@ import "./About.css";
 // import ME from "../../assets/me-about.jpg";
 import DP from "../../assets/portfolio-dp1.png";
 import { FaAward } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
+// import { FaUsers } from "react-icons/fa";
 import { BsStack } from "react-icons/bs";
 import { GoFileSubmodule } from "react-icons/go";
 

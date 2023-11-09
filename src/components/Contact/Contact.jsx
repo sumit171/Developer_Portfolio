@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import Swal from 'sweetalert2/dist/sweetalert2.js';
+// import Swal from 'sweetalert2/dist/sweetalert2.js';
 import emailjs from 'emailjs-com';
 import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
@@ -22,21 +22,21 @@ export default function Contact() {
       e.target.reset();
   };
 
-  const send = () =>{
-    Swal.fire({
-      title: "Email sent",
-      text: "Thanks for contacting",
-      icon: "success"
-    });
-  }
+  // const send = () =>{
+  //   Swal.fire({
+  //     title: "Email sent",
+  //     text: "Thanks for contacting",
+  //     icon: "success"
+  //   });
+  // }
 
-  const empty = () =>{
-    Swal.fire({
-      title: "Ooops..",
-      text: "Please fill the empty fields",
-      icon: "warning"
-    });
-  }
+  // const empty = () =>{
+  //   Swal.fire({
+  //     title: "Ooops..",
+  //     text: "Please fill the empty fields",
+  //     icon: "warning"
+  //   });
+  // }
 
   return (
     <section id="contact">
