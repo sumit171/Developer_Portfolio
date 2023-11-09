@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import IMG1 from "../../assets/fitness-club.png";
 import IMG2 from "../../assets/weather-app.png";
-import IMG3 from "../../assets/weather-app.png";
+import IMG3 from "../../assets/multi-lang.png";
 
 const data = [
   {
@@ -24,7 +24,7 @@ const data = [
     image: IMG3,
     title: "Multilingual app",
     github: "https://github.com/sumit171",
-    demo: null,
+    demo: "https://multilang-utility.netlify.app/",
   },
   // {
   //   id: 4,
