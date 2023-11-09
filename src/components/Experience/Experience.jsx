@@ -51,7 +51,7 @@ export default function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>TypeScript</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="experience__details">

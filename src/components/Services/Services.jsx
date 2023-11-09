@@ -1,6 +1,6 @@
 import React from "react";
 import "./Services.css";
-import { BiCheck } from "react-icons/bi";
+import { FiCheck } from "react-icons/fi";
 
 export default function Services() {
   return (
@@ -15,14 +15,14 @@ export default function Services() {
           </div>
           <ul className="service__list">
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 Information Architecture: Organize content logically and create
                 a structure that's easy to navigate.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 Wireframing and Prototyping: Create wireframes to outline layout
                 and functionality, and develop interactive prototypes for
@@ -30,27 +30,25 @@ export default function Services() {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-              Choose readable fonts and ensure a clear hierarchy of text.
-              </p>
+              <FiCheck className="service__list-icon" />
+              <p>Choose readable fonts and ensure a clear hierarchy of text.</p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 Microinteractions: Enhance the user experience with subtle
                 animations and interactions
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 Performance: Optimize the UI/UX for speed, responsiveness, and
                 efficient interactions.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 Security: Ensure robust security measures to protect user data.
               </p>
@@ -64,7 +62,7 @@ export default function Services() {
           </div>
           <ul className="service__list">
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 I have a strong focus on a React-oriented approach to web
                 development. React is at the core of my expertise, and I
@@ -73,7 +71,7 @@ export default function Services() {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 With a deep understanding of React's component-based
                 architecture, I can design and build web applications that are
@@ -81,7 +79,7 @@ export default function Services() {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 I'm well-versed in state management using libraries like Redux
                 and context API, and I ensure that applications I develop are
@@ -91,14 +89,14 @@ export default function Services() {
             </li>
           </ul>
         </article>
-        {/* END OF front end dev */}
+        {/* END OF front end */}
         <article className="service">
           <div className="service__head">
             <h3>BackEnd Development</h3>
           </div>
           <ul className="service__list">
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 Node.js allows me to efficiently handle asynchronous operations
                 and develop real-time features, making it a valuable asset for
@@ -108,7 +106,7 @@ export default function Services() {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 I'm well-versed in popular web frameworks like Express.js, which
                 I use to create RESTful APIs, enabling seamless communication
@@ -116,7 +114,7 @@ export default function Services() {
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon" />
               <p>
                 Feel free to personalize this response to align with your
                 specific experiences and expertise in Node.js-oriented backend

@@ -24,7 +24,7 @@ const data = [
     image: IMG3,
     title: "Multilingual app",
     github: "https://github.com/sumit171",
-    demo: "",
+    demo: null,
   },
   // {
   //   id: 4,
@@ -73,7 +73,7 @@ export default function Portfolio() {
                   Github
                 </a>
                 <a
-                  href={props.demo}
+                  href={props.demo ? props.demo : null}
                   className="btn btn-primary"
                   target="_blank"
                   rel="noreferrer"
