@@ -37,7 +37,7 @@ export default function About() {
             <article className="about__card">
               <GoFileSubmodule className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ completed</small>
+              <small>7+ completed</small>
             </article>
           </div>
           <p>
