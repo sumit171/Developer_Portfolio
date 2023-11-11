@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-// import {FaFacebookF} from "react-icons/fa";
 import {BsGithub} from "react-icons/bs";
 import {AiFillInstagram} from "react-icons/ai";
 import {BsTwitter} from "react-icons/bs";
