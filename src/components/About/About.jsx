@@ -42,7 +42,7 @@ export default function About() {
           </div>
           <p>
             I am a skilled Progressive Web App developer with over 3 years of
-            experience in HTML, CSS, JavaScript, React and AEM. Adept in
+            experience in HTML, CSS, JavaScript, React and AEM (Adobe experience manager). Adept in
             designing and developing dynamic and responsive web applications
             that are user-friendly and intuitive
           </p>
