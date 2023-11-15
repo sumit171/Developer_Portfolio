@@ -16,7 +16,7 @@ export default function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
@@ -37,7 +37,7 @@ export default function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>BootStrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
@@ -73,7 +73,7 @@ export default function Experience() {
         {/* Enf of Frontend */}
 
         <div className="experience__backend">
-          <h3>Backend Development <br/> & Dev Tools</h3>
+          <h3>Backend Development <br/> Dev Tools & CMS </h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
@@ -93,6 +93,13 @@ export default function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MongoDB</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>AEM</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
