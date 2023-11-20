@@ -35,13 +35,7 @@ export default function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
-        {/* <a
-          href="https://www.facebook.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-            <FaFacebookF/>
-        </a> */}
+        {/* removed facebook */}
         <a
           href="https://github.com/sumit171"
           target="_blank"
