@@ -30,14 +30,6 @@ export default function Contact() {
   //   });
   // }
 
-  // const empty = () =>{
-  //   Swal.fire({
-  //     title: "Ooops..",
-  //     text: "Please fill the empty fields",
-  //     icon: "warning"
-  //   });
-  // }
-
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
