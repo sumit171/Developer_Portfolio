@@ -22,14 +22,6 @@ export default function Contact() {
       e.target.reset();
   };
 
-  // const send = () =>{
-  //   Swal.fire({
-  //     title: "Email sent",
-  //     text: "Thanks for contacting",
-  //     icon: "success"
-  //   });
-  // }
-
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
