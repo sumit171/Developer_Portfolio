@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-// import Swal from 'sweetalert2/dist/sweetalert2.js';
 import emailjs from 'emailjs-com';
 import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
