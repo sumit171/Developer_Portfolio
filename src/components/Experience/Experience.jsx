@@ -110,7 +110,7 @@ export default function Experience() {
                 <small className="text-light">Beginner</small>
               </div>
             </article>
-            {/* <article className="experience__details">
+            {/* <article className="">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Git</h4>
