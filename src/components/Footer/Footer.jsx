@@ -35,7 +35,7 @@ export default function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
-        {/* facebook removed */}
+        {/* facebook */}
         <a
           href="https://github.com/sumit171"
           target="_blank"
