@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-// import ME from "../../assets/me-about.jp
+// import ME from "../../assets/me-about.
 import DP from "../../assets/portfolio-dp1.png";
 import { FaAward } from "react-icons/fa";
 
